@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c2e598b465c4113b1964f276eeaddb6" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="MixErpDbModel.bBirim" Width="1.5" PointX="0.75" PointY="10.5" />
+        <EntityTypeShape EntityType="MixErpDbModel.bKategori" Width="1.5" PointX="3.75" PointY="4.5" />
+        <EntityTypeShape EntityType="MixErpDbModel.blgCariTipi" Width="1.5" PointX="1.5" PointY="14.75" />
+        <EntityTypeShape EntityType="MixErpDbModel.blgDepartman" Width="1.5" PointX="10.75" PointY="1.875" />
+        <EntityTypeShape EntityType="MixErpDbModel.bMensei" Width="1.5" PointX="3.75" PointY="7.125" />
+        <EntityTypeShape EntityType="MixErpDbModel.bOdemeTurleri" Width="1.5" PointX="6" PointY="6.5" />
+        <EntityTypeShape EntityType="MixErpDbModel.ilceler" Width="1.5" PointX="1.5" PointY="17.125" />
+        <EntityTypeShape EntityType="MixErpDbModel.iller" Width="1.5" PointX="1.5" PointY="20.25" />
+        <EntityTypeShape EntityType="MixErpDbModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblCari" Width="1.5" PointX="3.75" PointY="14.875" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblPersonel" Width="1.5" PointX="13" PointY="1" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblSatisAlisAlt" Width="1.5" PointX="8.25" PointY="5" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblStokDurum" Width="1.5" PointX="8.25" PointY="23.5" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUrunAli" Width="1.5" PointX="8.25" PointY="9.5" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUrunAlisAlt" Width="1.5" PointX="3" PointY="10.125" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUrunAlisUst" Width="1.5" PointX="11.25" PointY="14.125" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUrunler" Width="1.5" PointX="6" PointY="9.625" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUrunSatisAlt" Width="1.5" PointX="11.25" PointY="10" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUrunSatisUst" Width="1.5" PointX="8.25" PointY="15.125" />
+        <EntityTypeShape EntityType="MixErpDbModel.tblUser" Width="1.5" PointX="2.75" PointY="0.75" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlisAlt_bBirim" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunler_Birim" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunSatisAlt_bBirim" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunSatisAlt_bBirims" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunler_KategoriId" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblCaris_blgCariTipis" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblPersonel_blgDepartman" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunler_MenseiId" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlis_bOdemeTurleri" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlisUst_bOdemeTurleri" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunSatisUst_bOdemeTurleri" />
+        <AssociationConnector Association="MixErpDbModel.fk_il_no" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblCaris_ilceler" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblCaris_iller" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlis_tblCaris" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlisUst_tblCaris" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunler_tblCaris" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunSatisUst_tblCaris" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunSatisAlt_tblUrunlers" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblStokDurum_tblUrunler" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlis_tblUrunler" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunAlisAlt_tblUrunlers" />
+        <AssociationConnector Association="MixErpDbModel.FK_tblUrunSatisAlt_tblUrunler" />
+        <EntityTypeShape EntityType="MixErpDbModel.vwUrunAlisAltUst" Width="1.5" PointX="0.75" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
